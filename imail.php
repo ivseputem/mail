@@ -21,7 +21,7 @@ $headers .= "Content-Type: text/html; charset=utf-8\r\n";
 
 $fields = array
 (
-	'user_name'		=> 'Name: ',
+	'user_name'     => 'Name: ',
 	'user_phone'	=> 'Phone: ',
 	'user_email'	=> 'E-mail: ',
 );
