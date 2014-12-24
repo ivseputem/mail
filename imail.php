@@ -9,10 +9,10 @@ ini_set('display_errors', 'On');
 
 if(empty($_POST) && ($_SERVER['HTTP_X_REQUESTED_WITH'] !== 'XMLHttpRequest')) exit;
 
-$email = 'example@example.com';
-$subject = 'New message';
-$message = '';
-$from = 'example@example.com';
+$from     = 'example@example.com';
+$email    = 'example@example.com';
+$subject  = 'New message';
+$message  = '';
 
 $headers = "From: ".$from."\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
