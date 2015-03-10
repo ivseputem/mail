@@ -26,10 +26,10 @@ $fields = array
 );
 
 foreach($_POST as $field => $value)
-(
+{
     if(!empty($fields[$field]))
         $message .= $fields[$field] . $value . '<br/>';
-)
+}
 
 if(mail($email, $subject, $message, $headers))
     echo json_encode(array('error' => false));
